@@ -5,6 +5,8 @@ import pytz
 today = datetime.datetime.now(pytz.timezone('Asia/Tokyo'))
 date = format(today, '%Y-%m-%d')
 
+
+
 headers = {
         "Accept": "application/json",
         "Notion-Version": "2022-06-28",
